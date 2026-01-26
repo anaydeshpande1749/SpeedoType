@@ -10,7 +10,7 @@ function Navbar(props)
 {
     return <div className={props.dabba? "dark-navbar" : "navbar"} >
     
-                <h1><IoMdSpeedometer />SpeedoTypen</h1>
+                <h1><IoMdSpeedometer />SpeedoType</h1>
                 <div className="nav-right">
                        <p className="best-text">Best WPM : <span className="best-score">{props.best}</span></p> 
                      <button className="theme-toggle" onClick={props.changeTheme}>{props.dabba? <BsBrightnessHigh/> : <MdOutlineDarkMode/>}</button> 
